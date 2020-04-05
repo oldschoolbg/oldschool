@@ -19,6 +19,13 @@
     "@angular/platform-browser": "~9.0.6",
     "@angular/platform-browser-dynamic": "~9.0.6",
     "@angular/router": "~9.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "force-ssl-heroku": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -43,5 +50,17 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  }
+  },
+  "description": "This is a webserver to host my resume / CV website for oldschool.site",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oldschoolbg/oldschool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oldschoolbg/oldschool/issues"
+  },
+  "homepage": "https://github.com/oldschoolbg/oldschool#readme"
 }
