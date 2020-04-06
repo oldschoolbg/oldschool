@@ -10,6 +10,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { CallToActionComponent } from './components/call-to-action/call-to-action.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TestimonialsComponent,
     CallToActionComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule
